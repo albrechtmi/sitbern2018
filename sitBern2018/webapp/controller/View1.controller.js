@@ -1,4 +1,4 @@
-/* sitBern2018 albrechtmi - Properly builded with local tools - [02901625-7cd2-44a5-901a-b5441f81e369] */
+/* sitBern2018 albrechtmi - Properly builded with local tools - [c942407e-f448-4ea0-8608-29abc835f793] */
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast"
@@ -10,7 +10,7 @@ sap.ui.define([
 		doSubmit: function (oEvt) {
 			var sServiceUrl = "https://somefancywebapi.fixedurl.com/api/v1/serviceHelloWorld";
 			var iTotalLoops = 0;
-			for (var i = 0; i < 5; i++) { 
+			for (var i = 0; i < 15; i++) { 
 				iTotalLoops = i;
 			}
 			iTotalLoops = iTotalLoops + 1; 
