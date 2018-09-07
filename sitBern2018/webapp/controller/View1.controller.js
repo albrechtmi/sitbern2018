@@ -1,4 +1,4 @@
-/* sitBern2018 albrechtmi - Properly builded with local tools - [8bba2ad8-b715-420c-8113-995e250aed87] */
+/* sitBern2018 albrechtmi - Properly builded with local tools - [a1cab026-ed12-4d56-8025-6f0c5063dc4c] */
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast"
@@ -6,7 +6,6 @@ sap.ui.define([
 	"use strict"; 
 	return Controller.extend("sitBern2018.controller.View1", {
 		onInit:function(oEvt) {
-			alert("sitBern");	
 		},
 		doSubmit: function (oEvt) {
 			var sServiceUrl = "https://somefancywebapi.fixedurl.com/api/v1/serviceHelloWorld";
