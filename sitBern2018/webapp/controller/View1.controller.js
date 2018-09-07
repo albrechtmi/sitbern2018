@@ -1,4 +1,4 @@
-/* sitBern2018 albrechtmi - Properly builded with local tools - [31e633da-bcbb-4ca5-95ca-1b143157140e] */
+/* sitBern2018 albrechtmi - Properly builded with local tools - [20789084-183d-4525-8fbc-9952366ed787] */
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast"
